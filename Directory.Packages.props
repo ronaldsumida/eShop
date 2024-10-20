@@ -5,7 +5,7 @@
     <AspnetVersion>8.0.7</AspnetVersion>
     <MicrosoftExtensionsVersion>8.7.0</MicrosoftExtensionsVersion>
     <EfVersion>8.0.8</EfVersion>
-    <AspireVersion>8.2.0</AspireVersion>
+    <AspireVersion>8.2.1</AspireVersion>
     <AspireUnstablePackagesVersion>8.0</AspireUnstablePackagesVersion>
     <GrpcVersion>2.65.0</GrpcVersion>
     <DuendeVersion>7.0.6</DuendeVersion>
@@ -13,9 +13,9 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- Version together with Aspire -->
-    <PackageVersion Include="Aspire.Hosting.AppHost" Version="8.1.0" />
+    <PackageVersion Include="Aspire.Hosting.AppHost" Version="8.2.1" />
     <PackageVersion Include="Aspire.Hosting.Azure.CognitiveServices" Version="$(AspireVersion)" />
-    <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="8.1.0" />
+    <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="8.2.1" />
     <PackageVersion Include="Aspire.Hosting.RabbitMQ" Version="$(AspireVersion)" />
     <PackageVersion Include="Aspire.Hosting.Redis" Version="$(AspireVersion)" />
     <PackageVersion Include="Aspire.Npgsql" Version="$(AspireVersion)" />
